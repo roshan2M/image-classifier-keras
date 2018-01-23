@@ -11,4 +11,4 @@ My first attempt at building an image classifier in Keras. I did this in a few s
 ## Testing the Classifier
 (Trying to find out how to load ```buoy_classifier.h5``` onto GitHub since it exceeds the 100mb limit.)
 
-Make sure the dependencies of Keras 1.2.2 installed. Once the file ```buoy_classifier.h5``` is on GitHub, load it into a directory. Then load model using ```model = load_model('buoy_classifier.h5')``` and test it on a new image using ```model.predict(buoy, batch_size=1, verbose=1)```.
+Make sure the dependencies of Keras 1.2.2 are installed. Once the file ```buoy_classifier.h5``` is on GitHub, load it into a directory. Then load model using ```model = load_model('buoy_classifier.h5')``` and test it on a new image using ```model.predict(buoy, batch_size=1, verbose=1)```.
