@@ -4,8 +4,8 @@ My first attempt at building an image classifier in Keras. I did this in a few s
 * Resized them into (200px x 200px) sized images
 * Flattened into 40,000 dimensional vectors to feed into classifer
 * Specified number of classes, epochs, filters and layers in Keras
-* Split training & testing sets (Note: also split into CV set)
-* Used Dense layers to connect layers of neural networks, decided activation functions (softmax, relu), and used MaxPooling2D to identify key features in images (iterate this step to improve model)
+* Split training & testing sets
+* Used Dense layers to connect layers of neural networks, use ReLu intermediate activation function, and then used MaxPooling2D
 * Evaluated model with testing set
 
 ## Testing the Classifier
